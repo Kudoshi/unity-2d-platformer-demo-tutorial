@@ -12,7 +12,7 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D rb;
     private bool m_IsGrounded;
     private float m_GroundedRadiusCheck = .2f;
-
+    private bool m_IsFacingRight = true;
 
     private void Start()
     {
@@ -47,5 +47,26 @@ public class PlayerMovement : MonoBehaviour
             rb.velocity = new Vector2(rb.velocity.x, JumpForce);
         }
 
+        // Flip character sprite in direction
+        if (moveValue.x > 0 && !m_IsFacingRight)
+        {
+            Flip();
+        }
+        else if (moveValue.x < 0 && m_IsFacingRight)
+        {
+            Flip();
+        }
+       
+    }
+
+    private void Flip()
+    {
+        // Switch the way the player is labelled as facing.
+        m_IsFacingRight = !m_IsFacingRight;
+
+        // Flip the local scale rotation
+        Vector3 transformScale = transform.localScale;
+        transformScale.x *= -1;
+        transform.localScale = transformScale;
     }
 }
