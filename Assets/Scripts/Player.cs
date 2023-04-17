@@ -6,8 +6,20 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     public TextMeshProUGUI CoinLabel;
+    public TextMeshProUGUI UI_CoinCountLabel;
+    public GameObject Winning_UI;
 
     private int m_Coins;
+    private Vector3 m_RespawnPoint;
+    private Rigidbody2D m_Rb;
+    private PlayerMovement m_playerMovement;
+
+    private void Start()
+    {
+        m_RespawnPoint = transform.position;
+        m_Rb = GetComponent<Rigidbody2D>();
+        m_playerMovement = GetComponent<PlayerMovement>();
+    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -19,5 +31,13 @@ public class Player : MonoBehaviour
             Debug.Log(m_Coins);
             Destroy(collision.gameObject);
         }
+
+        if (collision.CompareTag("DeathCollider"))
+        {
+            transform.position = m_RespawnPoint;
+            m_Rb.velocity = Vector3.zero;
+            Debug.Log("Respawned!");
+        }
+
     }
 }
