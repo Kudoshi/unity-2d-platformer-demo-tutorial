@@ -3100,7 +3100,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CoinLabel: {fileID: 1959037939}
   UI_CoinCountLabel: {fileID: 0}
-  Winning_UI: {fileID: 0}
+  Winning_UI: {fileID: 726016480}
 --- !u!1 &1959037937
 GameObject:
   m_ObjectHideFlags: 0
@@ -3492,6 +3492,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1562077817137592550, guid: c9f81827cd1e8cb48b220eee500179e1, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1982114296301952505, guid: c9f81827cd1e8cb48b220eee500179e1, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -3538,6 +3542,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5093757271653036397, guid: c9f81827cd1e8cb48b220eee500179e1, type: 3}
       propertyPath: m_Name
+      value: WinningFlag
+      objectReference: {fileID: 0}
+    - target: {fileID: 5093757271653036397, guid: c9f81827cd1e8cb48b220eee500179e1, type: 3}
+      propertyPath: m_TagString
       value: WinningFlag
       objectReference: {fileID: 0}
     m_RemovedComponents: []
