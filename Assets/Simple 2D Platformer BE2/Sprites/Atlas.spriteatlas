@@ -35,7 +35,7 @@ SpriteAtlas:
       m_ForceMaximumCompressionQuality_BC6H_BC7: 0
     packingSettings:
       serializedVersion: 2
-      padding: 4
+      padding: 2
       blockOffset: 1
       allowAlphaSplitting: 0
       enableRotation: 1
@@ -45,11 +45,25 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 2800000, guid: e85c6e02fda4a004b84664f435ad4d73, type: 3}
+    - {fileID: 2800000, guid: 274d64617113287499ed1c4165d1d8f3, type: 3}
+    - {fileID: 2800000, guid: f73dfe034c22cfc41bd7e8799020a5ac, type: 3}
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
+  - {fileID: -989053124, guid: 274d64617113287499ed1c4165d1d8f3, type: 3}
+  - {fileID: 1081988486, guid: 274d64617113287499ed1c4165d1d8f3, type: 3}
+  - {fileID: 1864010080, guid: 274d64617113287499ed1c4165d1d8f3, type: 3}
+  - {fileID: -266601291, guid: 274d64617113287499ed1c4165d1d8f3, type: 3}
+  - {fileID: 1268363064, guid: 274d64617113287499ed1c4165d1d8f3, type: 3}
+  - {fileID: -1976170418, guid: 274d64617113287499ed1c4165d1d8f3, type: 3}
+  - {fileID: 1807494944, guid: 274d64617113287499ed1c4165d1d8f3, type: 3}
+  - {fileID: -1823325376, guid: 274d64617113287499ed1c4165d1d8f3, type: 3}
+  - {fileID: 1901014446, guid: 274d64617113287499ed1c4165d1d8f3, type: 3}
+  - {fileID: 13708501, guid: 274d64617113287499ed1c4165d1d8f3, type: 3}
+  - {fileID: 1926221912, guid: 274d64617113287499ed1c4165d1d8f3, type: 3}
+  - {fileID: -1250185127, guid: 274d64617113287499ed1c4165d1d8f3, type: 3}
   - {fileID: -1252529812, guid: e85c6e02fda4a004b84664f435ad4d73, type: 3}
   - {fileID: 93839228, guid: e85c6e02fda4a004b84664f435ad4d73, type: 3}
   - {fileID: -2118410942, guid: e85c6e02fda4a004b84664f435ad4d73, type: 3}
@@ -66,7 +80,21 @@ SpriteAtlas:
   - {fileID: 876659459, guid: e85c6e02fda4a004b84664f435ad4d73, type: 3}
   - {fileID: 1983487732, guid: e85c6e02fda4a004b84664f435ad4d73, type: 3}
   - {fileID: -1943916539, guid: e85c6e02fda4a004b84664f435ad4d73, type: 3}
+  - {fileID: -976262874, guid: f73dfe034c22cfc41bd7e8799020a5ac, type: 3}
+  - {fileID: -1633538891, guid: f73dfe034c22cfc41bd7e8799020a5ac, type: 3}
   m_PackedSpriteNamesToIndex:
+  - Coins_11
+  - Coins_10
+  - Coins_6
+  - Coins_7
+  - Coins_4
+  - Coins_5
+  - Coins_2
+  - Coins_3
+  - Coins_0
+  - Coins_1
+  - Coins_8
+  - Coins_9
   - Platforms_15
   - Platforms_14
   - Platforms_13
@@ -83,6 +111,8 @@ SpriteAtlas:
   - Platforms_3
   - Platforms_8
   - Platforms_9
+  - Objects_0
+  - Objects_1
   m_RenderDataMap: {}
   m_Tag: Atlas
   m_IsVariant: 0
