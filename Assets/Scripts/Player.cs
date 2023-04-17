@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -47,14 +46,8 @@ public class Player : MonoBehaviour
             m_Rb.velocity = Vector3.zero;
             m_playerMovement.enabled = false;
 
-            GoToNextScene();
-
             Debug.Log("WIN!");
         }
     }
 
-    private void GoToNextScene()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-    }
 }
