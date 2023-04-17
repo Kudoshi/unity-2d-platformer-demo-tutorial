@@ -3099,6 +3099,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CoinLabel: {fileID: 1959037939}
+  UI_CoinCountLabel: {fileID: 0}
+  Winning_UI: {fileID: 0}
 --- !u!1 &1959037937
 GameObject:
   m_ObjectHideFlags: 0
@@ -3496,11 +3498,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1982114296301952505, guid: c9f81827cd1e8cb48b220eee500179e1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 24.426153
+      value: 45.58
       objectReference: {fileID: 0}
     - target: {fileID: 1982114296301952505, guid: c9f81827cd1e8cb48b220eee500179e1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.5058055
+      value: 6.06
       objectReference: {fileID: 0}
     - target: {fileID: 1982114296301952505, guid: c9f81827cd1e8cb48b220eee500179e1, type: 3}
       propertyPath: m_LocalPosition.z
