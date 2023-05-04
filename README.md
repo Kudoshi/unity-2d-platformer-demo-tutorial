@@ -2,6 +2,8 @@
 
 A simple Unity 2D Platformer Demo
 
+Able to drag and drop to create the level
+
 Made for APU Game Development Club's Introduction to Unity Workshop in 2023
 
 ----
