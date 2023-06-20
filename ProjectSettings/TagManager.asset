@@ -7,6 +7,7 @@ TagManager:
   - Coin
   - DeathCollider
   - WinningFlag
+  - MovingPlatform
   layers:
   - Default
   - TransparentFX
